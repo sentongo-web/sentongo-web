@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sentongo-web
 - 👀 I’m interested in ML, LLM, NLP
-- 🌱 I’m currently learning Data Science
+- 🌱 I’m currently learning more of MLops
 - 💞️ I’m looking to collaborate on ML projects
 - 📫 How to reach me: paulsentongo@eclipso.de OR +256-789-273-083
 - 😄 Pronouns: He/Him
