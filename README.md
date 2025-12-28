@@ -2,7 +2,7 @@
 - 👀 I’m interested in ML, LLM, NLP
 - 🌱 I’m currently learning more of MLops
 - 💞️ I’m looking to collaborate on ML projects
-- 📫 How to reach me: paulsentongo@eclipso.de OR +256-789-273-083
+- 📫 How to reach me: paulsentongo@eclipso.de OR +256-789-273-083 OR +4917636130941 (Whatsapp)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I enjoy football 
 
