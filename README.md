@@ -124,14 +124,24 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 
 # 📊 My GitHub Stats
 
+# 📊 My GitHub Stats
+
 <p align="center">
 
 <a href="https://github.com/sentongo-web">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sentongo-web&show_icons=true&include_all_commits=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="Paul Sentongo's GitHub Stats" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/stats.svg"
+    alt="Paul Sentongo's GitHub Stats"
+    height="180"
+  />
 </a>
 
 <a href="https://github.com/sentongo-web">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sentongo-web&langs_count=10&layout=compact&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Paul Sentongo's Top Languages" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/top-langs.svg"
+    alt="Paul Sentongo's Top Languages"
+    height="180"
+  />
 </a>
 
 </p>
@@ -141,7 +151,10 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 <p align="center">
 
 <a href="https://github.com/sentongo-web">
-  <img src="https://streak-stats.demolab.com?user=sentongo-web&theme=dark&hide_border=true&ring=0891B2&fire=0891B2&currStreakLabel=0891B2" alt="Paul Sentongo's GitHub Streak" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/streak.svg"
+    alt="Paul Sentongo's GitHub Streak"
+  />
 </a>
 
 </p>
@@ -153,11 +166,19 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 <p align="center">
 
 <a href="https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=sentongo-web&repo=Kidney_classification_Using_MLOPS_and_DVC_Data-version-control&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="Kidney Classification Using MLOps and DVC" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/kidney-classification.svg"
+    width="48%"
+    alt="Kidney Classification Using MLOps and DVC"
+  />
 </a>
 
 <a href="https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=sentongo-web&repo=Dental-OPG-XRAY-Analysis-MLOPS&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="Dental OPG X-Ray Analysis MLOps" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/dental-opg.svg"
+    width="48%"
+    alt="Dental OPG X-Ray Analysis MLOps"
+  />
 </a>
 
 </p>
@@ -165,7 +186,11 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 <p align="center">
 
 <a href="https://github.com/sentongo-web/SQL_datawarehouse_Project">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=sentongo-web&repo=SQL_datawarehouse_Project&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" alt="SQL Data Warehouse Project" />
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/sql-datawarehouse.svg"
+    width="48%"
+    alt="SQL Data Warehouse Project"
+  />
 </a>
 
 </p>
