@@ -13,9 +13,6 @@ I'm a Data Scientist who fell in love with building the pipelines that make data
 * 💬 Ask me about **Bridging Research & Engineering**
 
 My passion lies at the intersection of **Machine Learning Research and production-grade Engineering**. I investigate how to optimise models for real-world constraints.
-
-My research interests include developing high-precision deep-learning architectures, particularly **Convolutional Neural Networks (CNNs)**, to automate the detection of novel features in complex medical imaging such as MRI, CT and X-ray images for early-stage oncology and neurological diagnosis.
-
 I am particularly interested in **ML in production**, moving beyond simple notebooks to build high-performance systems with well-defined architecture, reproducibility, deployment pipelines and monitoring.
 
 ---
