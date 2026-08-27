@@ -73,7 +73,13 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 </a>
 
 <a href="https://huggingface.co/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/huggingface-colored-dark.svg" alt="Hugging Face" title="Hugging Face" width="36" height="36" />
+  <img
+    src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/huggingface-colored.svg"
+    alt="Hugging Face"
+    title="Hugging Face"
+    width="36"
+    height="36"
+  />
 </a>
 
 <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
