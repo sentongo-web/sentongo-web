@@ -120,10 +120,6 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 
 </p>
 
----
-
-# 📊 My GitHub Stats
-
 # 📊 My GitHub Stats
 
 <p align="center">
@@ -172,15 +168,6 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
     alt="Kidney Classification Using MLOps and DVC"
   />
 </a>
-
-<a href="https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS">
-  <img
-    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/dental-opg.svg"
-    width="48%"
-    alt="Dental OPG X-Ray Analysis MLOps"
-  />
-</a>
-
 </p>
 
 <p align="center">
