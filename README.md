@@ -1,7 +1,5 @@
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Paul Sentongo
 
-## Data Scientist
-
 I'm a Data Scientist who fell in love with building the pipelines that make data work. Currently bridging the gap between analytics and infrastructure by mastering Data Engineering.
 
 * 🌍 I'm based in **Kampala, Uganda**
