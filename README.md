@@ -1,17 +1,15 @@
-# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Paul Sentongo
+# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Paul Sentongo
 
-I'm a Data Scientist who fell in love with building the pipelines that make data work. Currently bridging the gap between analytics and infrastructure by mastering Data Engineering.
+### Data Engineer & Applied AI Researcher | MLOps for Clinical & Health Data Systems
 
-* 🌍 I'm based in **Kampala, Uganda**
-* 🖥️ See my portfolio at [Profile](https://sentongo-web.github.io)
-* ✉️ You can contact me at [sentongopol@gmail.com](mailto:sentongopol@gmail.com)
-* 🚀 I'm currently working on [SQL Data Warehouse](https://sentongo-web.github.io/SQL_datawarehouse_Project/#explore)
-* 🧠 I'm currently learning **React**
-* 👥 I'm looking to collaborate on **Projects**
-* 💬 Ask me about **Bridging Research & Engineering**
+📍 **Kampala, Uganda** &nbsp;·&nbsp; 🖥️ **[Portfolio](https://sentongo-web.github.io)** &nbsp;·&nbsp; 💼 **[LinkedIn](https://www.linkedin.com/in/paul-sentongo-885041284/)** &nbsp;·&nbsp; ✉️ **[Email](mailto:sentongopol@gmail.com)**
 
-My passion lies at the intersection of **Machine Learning Research and production-grade Engineering**. I investigate how to optimise models for real-world constraints.
-I am particularly interested in **ML in production**, moving beyond simple notebooks to build high-performance systems with well-defined architecture, reproducibility, deployment pipelines and monitoring.
+I build data and ML systems that hold up outside the notebook — from T-SQL medallion warehouses to fairness-audited clinical classifiers trained on real hospital data. My recent focus is applying rigorous MLOps (versioned data, tracked experiments, monitored deployments) to healthcare problems in resource-constrained settings, most recently a hypertension risk model built on records from Nakaseke Hospital, Uganda, evaluated for both predictive performance and demographic fairness.
+
+* 🚀 Currently building **[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** — a fairness-audited, SHAP-interpretable classifier deployed at [nakaseke-hypertension-screener.onrender.com](https://nakaseke-hypertension-screener.onrender.com/)
+* 📚 Deepening my medical-imaging skills through Project MONAI's tutorials
+* 👥 Open to collaborating on data engineering or clinical AI projects
+* 💬 Ask me about missing-data imputation (MICE/MissForest), medallion architecture, or ML fairness audits
 
 ---
 
@@ -152,10 +150,28 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
 
 ---
 
-# 🚀 Top Repositories
+# 🚀 Top Projects
+
+**[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** — End-to-end pipeline for hypertension risk prediction from Nakaseke Hospital EHR data: MICE/MissForest imputation, six benchmarked models, SHAP interpretability, and a formal demographic fairness audit. `scikit-learn` `MLflow` `SHAP` `Docker`
+[Live demo →](https://nakaseke-hypertension-screener.onrender.com/)
+
+**[Kidney CT Classifier](https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control)** — Fine-tuned VGG16 for kidney CT classification, wrapped in a fully versioned and reproducible training pipeline. `PyTorch` `DVC` `MLflow`
+[Hugging Face Space →](https://huggingface.co/spaces/Sentoz/kidney-classifier)
+
+**[Dental OPG X-Ray Analysis](https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS)** — YOLOv8 object detection model for pathology localization on panoramic dental X-rays. `YOLOv8` `Computer Vision` `MLOps`
+
+**[Medallion Data Warehouse](https://github.com/sentongo-web/SQL_datawarehouse_Project)** — Bronze–Silver–Gold T-SQL warehouse consolidating multi-source transactional data into a star schema. `T-SQL` `SQL Server` `ETL`
+[Project site →](https://sentongo-web.github.io/SQL_datawarehouse_Project/)
 
 <p align="center">
 
+<a href="https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs">
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/hypertension.svg"
+    width="48%"
+    alt="Hypertension Risk Screener"
+  />
+</a>
 <a href="https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control">
   <img
     src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/kidney-classification.svg"
@@ -163,10 +179,18 @@ I am particularly interested in **ML in production**, moving beyond simple noteb
     alt="Kidney Classification Using MLOps and DVC"
   />
 </a>
+
 </p>
 
 <p align="center">
 
+<a href="https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS">
+  <img
+    src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/dental-opg.svg"
+    width="48%"
+    alt="Dental OPG X-Ray Analysis"
+  />
+</a>
 <a href="https://github.com/sentongo-web/SQL_datawarehouse_Project">
   <img
     src="https://raw.githubusercontent.com/sentongo-web/sentongo-web/main/profile/sql-datawarehouse.svg"

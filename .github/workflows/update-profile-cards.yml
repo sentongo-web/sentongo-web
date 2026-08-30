@@ -58,6 +58,18 @@ jobs:
       # PINNED REPOSITORY 1
       # --------------------------------------------------
 
+      - name: Generate Hypertension Risk Screener repository card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=sentongo-web&repo=Hypertension-Detection-Complete-MLOPs&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true"
+          path: profile/hypertension.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --------------------------------------------------
+      # PINNED REPOSITORY 2
+      # --------------------------------------------------
+
       - name: Generate Kidney Classification repository card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -67,7 +79,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # --------------------------------------------------
-      # PINNED REPOSITORY 2
+      # PINNED REPOSITORY 3
       # --------------------------------------------------
 
       - name: Generate Dental OPG repository card
@@ -79,7 +91,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # --------------------------------------------------
-      # PINNED REPOSITORY 3
+      # PINNED REPOSITORY 4
       # --------------------------------------------------
 
       - name: Generate SQL Data Warehouse repository card
