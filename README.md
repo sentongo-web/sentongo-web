@@ -161,7 +161,7 @@ I build data and ML systems that hold up outside the notebook from T-SQL medalli
 
 **[Dental OPG X-Ray Analysis](https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS)** I built an end-to-end MLOps computer vision system for dental OPG X-ray analysis. The project uses deep learning to automatically identify dental abnormalities from panoramic radiographs and was designed as a production-grade solution rather than a standalone model. The work includes data preparation, model training, experiment tracking, reproducible pipelines, Docker-based deployment, and a web-based inference application. The objective was to demonstrate how Al can support dentists by providing rapid and scalable radiographic screening while showcasing real-world MLOps engineering practices. `YOLOv8` `Computer Vision` `MLOps`
 
-**[Medallion Data Warehouse](https://github.com/sentongo-web/SQL_datawarehouse_Project)** — Bronze–Silver–Gold T-SQL warehouse consolidating multi-source transactional data into a star schema. `T-SQL` `SQL Server` `ETL`
+**[Medallion Data Warehouse](https://github.com/sentongo-web/SQL_datawarehouse_Project)** I built a modern SQL Server data warehouse that consolidates data from ERP and CRM systems into a unified analytics platform. The solution uses a Medallion Architecture with Bronze, Silver, and Gold layers, implements ETL pipelines for data integration and cleansing, and models business data using star-schema fact and dimension tables. The project demonstrates end-to-end data engineering capabilities, including data warehousing, dimensional modeling, data quality management, and analytics-ready reporting. `T-SQL` `SQL Server` `ETL`
 [Project site →](https://sentongo-web.github.io/SQL_datawarehouse_Project/)
 
 <p align="center">
