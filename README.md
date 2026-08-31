@@ -152,7 +152,8 @@ I build data and ML systems that hold up outside the notebook from T-SQL medalli
 
 # 🚀 Top Projects
 
-**[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** — End-to-end pipeline for hypertension risk prediction from Nakaseke Hospital EHR data: MICE/MissForest imputation, six benchmarked models, SHAP interpretability, and a formal demographic fairness audit. `scikit-learn` `MLflow` `SHAP` `Docker`
+**[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** I built an end to end MLOps pipeline for hypertension risk screening using data from Nakaseke hospital Uganda. After discovering the diabetes labels were too imbalanced for reliable learning, I reframed the problem as hypertension classification. I developed data cleaning and feature engineering pipelines, created clinically meaningful features such as BMI and Waist to hip ratio risk, benchmarked six machine learning algorithms using stratified cross validation and SMOTE, optimized th top models with Optuna, tracked experiments in MLflow, explained predictions with SHAP, and deployed th final Logistic regression model through a Flask web application containerized with Docker.
+`scikit-learn` `MLflow` `SHAP` `Docker`
 [Live demo →](https://nakaseke-hypertension-screener.onrender.com/)
 
 **[Kidney CT Classifier](https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control)** — Fine-tuned VGG16 for kidney CT classification, wrapped in a fully versioned and reproducible training pipeline. `PyTorch` `DVC` `MLflow`
