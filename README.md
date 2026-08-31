@@ -4,7 +4,7 @@
 
 📍 **Kampala, Uganda** &nbsp;·&nbsp; 🖥️ **[Portfolio](https://sentongo-web.github.io)** &nbsp;·&nbsp; 💼 **[LinkedIn](https://www.linkedin.com/in/paul-sentongo-885041284/)** &nbsp;·&nbsp; ✉️ **[Email](mailto:sentongopol@gmail.com)**
 
-I build data and ML systems that hold up outside the notebook — from T-SQL medallion warehouses to fairness-audited clinical classifiers trained on real hospital data. My recent focus is applying rigorous MLOps (versioned data, tracked experiments, monitored deployments) to healthcare problems in resource-constrained settings, most recently a hypertension risk model built on records from Nakaseke Hospital, Uganda, evaluated for both predictive performance and demographic fairness.
+I build data and ML systems that hold up outside the notebook from T-SQL medallion warehouses to fairness audited clinical classifiers trained on real hospital data. My recent focus is applying rigorous MLOps (versioned data, tracked experiments, monitored deployments) to healthcare problems in resource-constrained settings, most recently a hypertension risk model built on records from Nakaseke Hospital, Uganda, evaluated for both predictive performance and demographic fairness.
 
 * 🚀 Currently building **[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** — a fairness-audited, SHAP-interpretable classifier deployed at [nakaseke-hypertension-screener.onrender.com](https://nakaseke-hypertension-screener.onrender.com/)
 * 📚 Deepening my medical-imaging skills through Project MONAI's tutorials
