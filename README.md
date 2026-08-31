@@ -156,7 +156,7 @@ I build data and ML systems that hold up outside the notebook from T-SQL medalli
 `scikit-learn` `MLflow` `SHAP` `Docker`
 [Live demo →](https://nakaseke-hypertension-screener.onrender.com/)
 
-**[Kidney CT Classifier](https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control)** — Fine-tuned VGG16 for kidney CT classification, wrapped in a fully versioned and reproducible training pipeline. `PyTorch` `DVC` `MLflow`
+**[Kidney CT Classifier](https://github.com/sentongo-web/Kidney_classification_Using_MLOPS_and_DVC_Data-version-control)** I built a complete MLOps-based computer vision system for kidney tumor detection using CT scan images. The solution uses transfer learning with VGG16 to classify scans as Normal or Tumor, achieving around 89.9% validation accuracy. Beyond model training, I implemented DVC for data versioning, MLflow and DagsHub for experiment tracking, Flask for serving predictions, Docker for containerization, GitHub Actions for CI/CD, and deployed the final application on Hugging Face Spaces. The project was designed to demonstrate a production-ready machine learning workflow rather than just a standalone deep learning model. `PyTorch` `DVC` `MLflow`
 [Hugging Face Space →](https://huggingface.co/spaces/Sentoz/kidney-classifier)
 
 **[Dental OPG X-Ray Analysis](https://github.com/sentongo-web/Dental-OPG-XRAY-Analysis-MLOPS)** — YOLOv8 object detection model for pathology localization on panoramic dental X-rays. `YOLOv8` `Computer Vision` `MLOps`
