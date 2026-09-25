@@ -8,7 +8,6 @@
 
 I build data and ML systems that hold up outside the notebook from T-SQL medallion warehouses to fairness audited clinical classifiers trained on real hospital data. My recent focus is applying rigorous MLOps (versioned data, tracked experiments, monitored deployments) to healthcare problems in resource-constrained settings, most recently a hypertension risk model built on records from Nakaseke Hospital, Uganda, evaluated for both predictive performance and demographic fairness.
 
-* 🚀 Currently building **[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** This is a fairness-audited, SHAP-interpretable classifier deployed at [nakaseke-hypertension-screener.onrender.com](https://nakaseke-hypertension-screener.onrender.com/)
 * 🏅 **Open-source contributor to [Project MONAI](https://github.com/Project-MONAI)** my multimodal early-fusion tutorial ([#2070](https://github.com/Project-MONAI/tutorials/pull/2070)) is now merged into the official MONAI tutorials
 * 👥 Open to collaborating on data engineering or clinical AI projects
 * 💬 Ask me about missing-data imputation (MICE/MissForest), medallion architecture, or ML fairness audits
