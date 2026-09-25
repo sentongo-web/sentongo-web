@@ -9,7 +9,7 @@
 I build data and ML systems that hold up outside the notebook from T-SQL medallion warehouses to fairness audited clinical classifiers trained on real hospital data. My recent focus is applying rigorous MLOps (versioned data, tracked experiments, monitored deployments) to healthcare problems in resource-constrained settings, most recently a hypertension risk model built on records from Nakaseke Hospital, Uganda, evaluated for both predictive performance and demographic fairness.
 
 * 🚀 Currently building **[Hypertension Risk Screener](https://github.com/sentongo-web/Hypertension-Detection-Complete-MLOPs)** This is a fairness-audited, SHAP-interpretable classifier deployed at [nakaseke-hypertension-screener.onrender.com](https://nakaseke-hypertension-screener.onrender.com/)
-* 📚 Deepening my medical-imaging skills through Project MONAI's tutorials
+* 🏅 **Open-source contributor to [Project MONAI](https://github.com/Project-MONAI)** my multimodal early-fusion tutorial ([#2070](https://github.com/Project-MONAI/tutorials/pull/2070)) is now merged into the official MONAI tutorials
 * 👥 Open to collaborating on data engineering or clinical AI projects
 * 💬 Ask me about missing-data imputation (MICE/MissForest), medallion architecture, or ML fairness audits
 
@@ -149,6 +149,32 @@ I build data and ML systems that hold up outside the notebook from T-SQL medalli
 </a>
 
 </p>
+
+---
+
+# 🏅 Open Source Contributions
+
+### [Project MONAI](https://github.com/Project-MONAI/tutorials) · Multimodal Early-Fusion Tutorial &nbsp;![Merged](https://img.shields.io/badge/PR_%232070-merged-8957e5?style=flat-square&logo=github)
+
+**[Add multimodal early-fusion tutorial (radiograph + clinical tabular) #2070](https://github.com/Project-MONAI/tutorials/pull/2070)** merged into `Project-MONAI:main` after review by a MONAI core maintainer · **+602 lines · 3 files**
+
+MONAI is the PyTorch-based open-source framework for medical imaging AI, used across hospitals and research labs worldwide. Nearly all of its tutorials focus on a single imaging modality, yet in real clinical practice a doctor almost never reads an image in isolation: vitals, labs and a short history are sitting right beside it. I noticed that gap while building the Nakaseke hypertension screener and contributed a tutorial that closes it.
+
+**What I built**
+
+* A new tutorial, **Multimodal Early-Fusion Network: Radiographs + Clinical Tabular Data**, now living under [`multimodal/nakaseke_multimodal_early_fusion/`](https://github.com/Project-MONAI/tutorials/tree/main/multimodal/nakaseke_multimodal_early_fusion) in the official repository
+* `ResilientMultimodalClassifier` fuses a MONAI `DenseNet121` image embedding (512-d) with a tabular projection stream (16-d) via `torch.cat` into a 528-d joint representation, followed by a dropout-regularised classification head
+* A fully **dictionary-based MONAI pipeline** that carries an image and a clinical vector through the same transforms, with no hand-rolled custom `Dataset`
+* `simulate_nakaseke_multimodal_dataset()`, a synthetic data generator that creates a NIfTI radiograph, a 4-feature clinical vector (age, BMI, salivary pH, systolic BP) and a label per patient from a shared hidden risk factor, so **neither modality is fully predictive on its own** and the model is forced to learn from both
+* Validation **ROC-AUC ≈ 0.91**, trained in under a minute on CPU with no GPU needed, and running cleanly end to end through MONAI's `runner.sh` notebook checks
+
+**What I took away from it**
+
+* **Privacy-first design for global health.** The feature schema mirrors a real hypertension-screening workflow at Nakaseke Hospital, Uganda, but no patient data is shipped or downloaded. Anyone in the world can reproduce it safely.
+* **Writing for a maintainer's bar, not my own.** I went through automated review (CodeRabbit), CI checks and maintainer feedback, and delivered a clean notebook with trimmed outputs, relative paths, working anchors and no large files, to the standard of a widely used production framework.
+* **Accessibility matters.** I kept the tutorial CPU-friendly on purpose so that researchers in resource-constrained settings like mine can run it without cloud GPUs.
+
+`MONAI` `PyTorch` `Multimodal Fusion` `DenseNet121` `NIfTI` `Medical Imaging` `Open Source`
 
 ---
 
